@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+.logo-shelfie {
+  font-family: "Open Sans", sans-serif;
+  height: 20vh;
+  width: 100vw;
+  background-color: #ab2a19;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+
+.form-shelfie {
+  height: 550px;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid black;
+  background-color: #3ad886;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product {
+  height: 250px;
+  width: 600px;
+  margin: 10px;
+  background-color: #d34735;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.button-form {
+  background-color: #ed6b59;
+}
+
+.product-buttons {
+  background-color: #3ad886;
+  height: 30px;
+  width: 50px;
+}
+
+.textProduct {
+  font-size: 20px;
+}
+
+/* .productDelete {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+} */
