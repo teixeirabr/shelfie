@@ -25,7 +25,7 @@ export default class Product extends Component {
           </button>
           <button
             className="product-buttons"
-            onClick={() => this.props.handleDelete(this.props.id)} // change to handle edit//
+            onClick={() => this.props.handleEdit(this.props.id)} // change to handle edit//
           >
             Edit
           </button>

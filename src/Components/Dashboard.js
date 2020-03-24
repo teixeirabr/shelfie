@@ -7,12 +7,13 @@ export default class Dashboard extends Component {
     this.state = {};
   }
   render() {
-    console.log(this.props.inventory);
+    // console.log(this.props.inventory);
     let mappedInventory = this.props.inventory.map(e => {
       return (
         <Product
           updateParentState={this.props.updateParentState}
           handleDelete={this.props.handleDelete}
+          handleEdit={this.props.handleEdit}
           key={e.id}
           id={e.id}
           name={e.name}

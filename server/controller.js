@@ -39,9 +39,9 @@ module.exports = {
     const db = req.app.get("db"),
       { id } = req.params,
       { name, price, img } = req.body;
-    db.edit_product(id, name, price, img)
-      .then(() => {
-        res.sendStatus(200);
+    db.edit_product([id, name, price, img])
+      .then(products => {
+        res.status(200).send(products);
       })
       .catch(err => res.status(500).send(err));
   }
